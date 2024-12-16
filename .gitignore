@@ -1,0 +1,34 @@
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+
+# Build outputs
+*.log
+
+# Ignore temp files and folders
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Version Control System directories
+.svn/
+CVS/
+
+# Generated resources
+resources/test_atlas_textures/
+resources/test_items/
+
+# Ignore files and folders that start with a dot, except for some important ones
+.*
+!.gitignore
+!.gitattributes
